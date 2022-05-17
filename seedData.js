@@ -37,18 +37,6 @@ const seedData = [
    },
    {
       id: getUUID(),
-      title: 'Red Notice',
-      description:
-         'An FBI profiler pursuing the world most wanted art thief becomes his reluctant partner in crime to catch an elusive crook who always one step ahead.',
-      cast: 'Dwayne Johnson, Ryan Reynolds, more',
-      genre: 'Violence',
-      genres: 'US Movies, Action & Adventure, Crime Movies',
-      duration: '1h 57m',
-      age: '13',
-      img: 'red-notice',
-   },
-   {
-      id: getUUID(),
       title: 'Silverton Siege',
       description:
          'After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank hostage situation. Based on a true story.',
