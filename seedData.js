@@ -1,7 +1,6 @@
 const seedData = [
    // Violence
    {
-      id: getUUID(),
       title: 'Joker',
       description:
          'In 1981 Gotham City, a struggling, mentally ill comic battles to be seen. His life takes a dark, gut-wrenching turn after he lashes back at attackers.',
@@ -12,8 +11,7 @@ const seedData = [
       img: 'joker',
    },
    {
-      id: getUUID(),
-      title: 'John 3 Wick',
+      title: 'John Wick_ Chapter 3 - Parabellum',
       description:
          'With a $14 million bounty on his head, elite hitman John Wick must battle every killer in his path to reach old allies and redeem his life.',
       cast: 'Halle Berry, Keanu Reeves, more',
@@ -24,7 +22,6 @@ const seedData = [
       img: 'john-3-wick',
    },
    {
-      id: getUUID(),
       title: 'Red Notice',
       description:
          'An FBI profiler pursuing the world most wanted art thief becomes his reluctant partner in crime to catch an elusive crook who always one step ahead.',
@@ -36,7 +33,6 @@ const seedData = [
       img: 'red-notice',
    },
    {
-      id: getUUID(),
       title: 'Silverton Siege',
       description:
          'After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank hostage situation. Based on a true story.',
@@ -48,7 +44,6 @@ const seedData = [
       img: 'silverton-siege',
    },
    {
-      id: getUUID(),
       title: 'The Takedown',
       description:
          'Forced to reteam after a decade, two mismatched cops investigate a murder in a divided French town, where a wider conspiracy looms.',
@@ -60,8 +55,7 @@ const seedData = [
       img: 'the-takedown',
    },
    {
-      id: getUUID(),
-      title: 'Sunderground',
+      title: '6 Underground',
       description:
          'After faking his death, a tech billionaire recruits a team of international operatives for a bold and bloody mission to take down a brutal dictator.',
       cast: 'Ryan Reynolds, Mélanie Laurent, more',
@@ -72,7 +66,6 @@ const seedData = [
       img: 'sunderground',
    },
    {
-      id: getUUID(),
       title: 'Triple Frontier',
       description:
          'Loyalties are tested when five former special forces operatives reunite to steal a drug lord fortune, unleashing a chain of unintended consequences.',
@@ -84,8 +77,7 @@ const seedData = [
       img: 'triple-frontier',
    },
    {
-      id: getUUID(),
-      title: 'white house down',
+      title: 'White House Down',
       description:
          'When a paramilitary group engineers a violent takeover of the White House, the president must try to hide from the attackers until he can be rescued.',
       cast: 'Channing Tatum, Jamie Foxx, more',
@@ -96,7 +88,6 @@ const seedData = [
       img: 'white-house-down',
    },
    {
-      id: getUUID(),
       title: 'Extraction',
       description:
          'A hardened mercenary mission becomes a soul-searching race to survive when he sent into Bangladesh to rescue a drug lord kidnapped son.',
@@ -109,8 +100,7 @@ const seedData = [
    },
    //  Thriller
    {
-      id: getUUID(),
-      title: 'Mother Android',
+      title: 'Mother_Android',
       description:
          'In a post-apocalyptic world rocked by a violent android uprising, a young pregnant woman and her boyfriend desperately search for safety.',
       cast: 'Chloë Grace Moretz, Algee Smith, ',
@@ -121,8 +111,7 @@ const seedData = [
       img: 'morther-android',
    },
    {
-      id: getUUID(),
-      title: 'Army Or Thieves',
+      title: 'Army of Thieves',
       description:
          'In this prequel to "Army of the Dead," a mysterious woman recruits bank teller Dieter to help her crew crack three legendary safes across Europe.',
       cast: 'Matthias Schweighöfer, Ruby O. Fee, more ',
@@ -133,7 +122,6 @@ const seedData = [
       img: 'army-or-thieves',
    },
    {
-      id: getUUID(),
       title: 'The Call',
       description:
          'Connected by phone in the same home but 20 years apart, a serial killer puts another woman’s past — and life — on the line to change her own fate.',
@@ -145,7 +133,6 @@ const seedData = [
       img: 'the-call',
    },
    {
-      id: getUUID(),
       title: 'The Platform',
       description:
          'A slab of food descends floor by floor in a prison. The inmates above eat heartily, leaving those below starving and desperate. A rebellion is imminent.',
@@ -157,7 +144,6 @@ const seedData = [
       img: 'the-platform',
    },
    {
-      id: getUUID(),
       title: 'Deadly Illusions',
       description:
          'After a bestselling novelist suffering from writer block hires a new nanny for her children, the line between fiction and reality starts to blur.',
@@ -169,7 +155,6 @@ const seedData = [
       img: 'deadly-illusions',
    },
    {
-      id: getUUID(),
       title: 'The Guilty',
       description:
          'A troubled police detective assigned to 911 operator duty scrambles to save a distressed caller during a harrowing day of revelations — and reckonings.',
@@ -181,7 +166,6 @@ const seedData = [
       img: 'the-guilty',
    },
    {
-      id: getUUID(),
       title: 'The Outsider',
       description:
          'An American soldier imprisoned in postwar Japan enters the dark world of the yakuza, adopting their way of life in repayment for his freedom.',
@@ -193,7 +177,6 @@ const seedData = [
       img: 'the-outsider',
    },
    {
-      id: getUUID(),
       title: 'Pandora',
       description:
          'When an earthquake hits a Korean village housing a run-down nuclear power plant, a man risks his life to save the country from imminent disaster.',
@@ -205,8 +188,7 @@ const seedData = [
       img: 'pandora',
    },
    {
-      id: getUUID(),
-      title: 'Time To Hunt',
+      title: 'Time to Hunt',
       description:
          'Wanting to leave their dystopian world behind for a faraway paradise, three outlaws plot a money heist — and draw the attention of a vicious killer.',
       cast: 'Lee Je-hoon, Ahn Jae-hong, Choi Woo-shik, more',
@@ -217,7 +199,6 @@ const seedData = [
       img: 'time-to-hunt',
    },
    {
-      id: getUUID(),
       title: 'Rogue City',
       description:
          'Caught in the crosshairs of police corruption and Marseille’s warring gangs, a loyal cop must protect his squad by taking matters into his own hands.',
@@ -230,120 +211,110 @@ const seedData = [
    },
    //    Vietname movies
    {
-      id: getUUID(),
       title: 'Camellia Sisters',
       description:
          'Tensions rise and untold secrets surface for three royal sisters when a family treasure is stolen the night before an antique auction.',
       cast: 'Le Khanh, Kaity Nguyen, Hong Van, more',
-      genre: 'Vietname Movies',
+      genre: 'Vietnam Movies',
       genres: 'Vietnamese. Dramas',
       duration: '1h 56m',
       age: '16',
       img: 'camellia-sisters',
    },
    {
-      id: getUUID(),
       title: 'Hollow',
       description:
          'As a family prepares to grieve for their presumably drowned daughter, she is found alive -- but her spirit appears possessed by someone else soul.',
       cast: 'Ngoc Diep Huyen, Son Bao Tran, Nguyen Hong An, more',
-      genre: 'Vietname Movies',
+      genre: 'Vietnam Movies',
       genres: 'Vietnamese. Horror Movies',
       duration: '1h 56m',
       age: '16',
       img: 'hollow',
    },
    {
-      id: getUUID(),
       title: 'The Rebel',
       description:
          'In 1920s Vietnam, a young man pursues rebels -- his fellow countrymen -- against the colonial French government, a job that grates on his conscience.',
       cast: 'Johnny Nguyen, Van Veronica Ngo, Dustin Nguyen, more',
-      genre: 'Vietname Movies',
+      genre: 'Vietnam Movies',
       genres: 'Vietnamese, Martial Arts Movies, Action & Adventure',
       duration: '1h 44m',
       age: '18',
       img: 'the-rebel',
    },
    {
-      id: getUUID(),
       title: 'Glitch',
       description:
          'A woman communicates with a supernatural presence through an old TV in her home, unearthing a murderous secret and turning her own life upside down.',
       cast: 'Nha Phuong, Truong The Vinh, Tien Luat, more',
-      genre: 'Vietname Movies',
+      genre: 'Vietnam Movies',
       genres: 'Vietnamese, Sci-Fi Movies, Crime Movies',
       duration: '1h 44m',
       age: '18',
       img: 'glitch',
    },
    {
-      id: getUUID(),
       title: 'Trang Quynh',
       description:
          'A clever prankster attempts to exonerate his beloved teacher from a troubling conviction that involves a wily bureaucrat.',
       cast: 'Quoc Anh, Nha Phuong, Tran Thanh, more',
-      genre: 'Vietname Movies',
+      genre: 'Vietnam Movies',
       genres: 'Vietnamese, Action & Adventure, Comedies',
       duration: '1h 33m',
       age: '13',
       img: 'trang-quynh',
    },
    {
-      id: getUUID(),
       title: 'The Big Boss',
       description:
          'A rural cook moves to the city for a better life but gets coerced into standing in for an incapacitated gang leader who he strikingly resembles.',
       cast: 'Thai Hoa, Tinna Tinh, Phi Thanh Van, more',
-      genre: 'Vietname Movies',
+      genre: 'Vietnam Movies',
       genres: 'Vietnamese, Comedies',
       duration: '1h 35m',
       age: '16',
       img: 'the-big-boss',
    },
    {
-      id: getUUID(),
       title: '200 Pounds Beauty',
       description:
          'With her looks deemed uncommercial, a gifted singer drastically transforms her appearance in an attempt to become a pop star.',
       cast: 'Minh Hang, Rocker Nguyen, Phuong Trinh Joile, more',
-      genre: 'Vietname Movies',
+      genre: 'Vietnam Movies',
       genres: 'Vietnamese, Romantic Comedies, Comedies',
       duration: '1h 31m',
       age: '13',
       img: '200-pounds-beauty',
    },
    {
-      id: getUUID(),
       title: 'Song Lang',
       description:
          'When a surly debt collector demands payment from a folk opera troupe, he forms an unlikely bond with their rising performer who must stall for time.',
       cast: 'Lien Binh Phat, Isaac',
-      genre: 'Vietname Movies',
+      genre: 'Vietnam Movies',
       genres: 'Vietnamese, LGBTQ Movies, Dramas',
       duration: '1h 41m',
       age: '16',
       img: 'song-lang',
    },
    {
-      id: getUUID(),
-      title: 'Dreamy-Eyes',
+      title: 'Dreamy Eyes',
       description:
          'Through heartbreak and betrayal, Ngan unrequited love for his childhood best friend Hà La endures for a generation in this sweeping romance.',
       cast: 'Tran Nghia, Truc Anh, Tran Phong, more',
-      genre: 'Vietname Movies',
+      genre: 'Vietnam Movies',
       genres: 'Vietnamese, Movies Based oon Books, Dramas',
       duration: '1h 56m',
       age: '13',
       img: 'dreamy-eyes',
    },
    {
-      id: getUUID(),
       title: 'The Guardian',
       description:
          'A tragedy surrounding a pop star propels her backup singer to fame, but the new star is plagued by supernatural occurrences.',
       cast: 'Truc Anh, Amee, Salim, more',
-      genre: 'Vietname Movies',
+      genre: 'Vietnam Movies',
       genres: 'Vietnamese, Dramas, Thriller Movies',
       duration: '2h 7m',
       age: '18',
@@ -351,8 +322,7 @@ const seedData = [
    },
    //    Animme
    {
-      id: getUUID(),
-      title: 'Nezhu Reborn',
+      title: 'New Gods_ Nezha Reborn',
       description:
          'While living as an ordinary deliveryman and motor racing fan, Nezha encounters old nemeses and must rediscover his powers to protect his loved ones.',
       cast: 'Yang Tianxiang, Zhang He, Xuan Xiaoming, more',
@@ -363,8 +333,7 @@ const seedData = [
       img: 'nezhu-reborn',
    },
    {
-      id: getUUID(),
-      title: 'Hat Haway',
+      title: 'Mobile Suit Gundam Hathaway',
       description:
          'After Char’s rebellion, Hathaway Noa leads an insurgency against Earth Federation, but meeting an enemy officer and a mysterious woman alters his fate.',
       cast: 'Kensho Ono, Reina Ueda, Junichi Suwabe, more',
@@ -375,8 +344,7 @@ const seedData = [
       img: 'hat-way',
    },
    {
-      id: getUUID(),
-      title: 'Gantz',
+      title: 'GANTZ_O',
       description:
          'Teams of recently deceased people who live been revived and given high-tech weapons must cooperate to defeat an army of monsters in Tokyo and Osaka.',
       cast: 'Daisuke Ono, M・A・O, Tomohiro Kaku, more',
@@ -387,7 +355,6 @@ const seedData = [
       img: 'gantz',
    },
    {
-      id: getUUID(),
       title: 'Batman Ninja',
       description:
          'Reimagined by Japan finest artists, Batman must face his foes in feudal Japan when a malfunctioning Quake Engine transports them all back in time.',
@@ -399,8 +366,7 @@ const seedData = [
       img: 'batman-ninja',
    },
    {
-      id: getUUID(),
-      title: 'Porca Rosso',
+      title: 'Porco Rosso',
       description:
          'When sky pirates terrorize the Adriatic Sea, this Italian pilot is the only one brave enough to take them on. Only catch: he’s half-man, half-pig.',
       cast: 'Shuichiro Moriyama, Tokiko Kato, Sanshi Katsura, more',
@@ -411,8 +377,7 @@ const seedData = [
       img: 'porca-rosso',
    },
    {
-      id: getUUID(),
-      title: 'Resleeved',
+      title: 'Altered Carbon_ Resleeved',
       description:
          'On the planet Latimer, Takeshi Kovacs must protect a tattooist while investigating the death of a yakuza boss alongside a no-nonsense CTAC.',
       cast: 'Tatsuhisa Suzuki, Rina Sato, Ayaka Asai, more',
@@ -423,7 +388,6 @@ const seedData = [
       img: 'resleeved',
    },
    {
-      id: getUUID(),
       title: 'Pom Poko',
       description:
          'Pushed out of their forests by human development, the wild tanuki of Tama Hills fight back with their shape-shifting powers — if they can get it right.',
@@ -435,8 +399,7 @@ const seedData = [
       img: 'pom-poko',
    },
    {
-      id: getUUID(),
-      title: 'Overlord',
+      title: 'Overlord_ The Undead King',
       description:
          'When the popular online game Yggdrasil is shut down, a lonely player named Momonga decides to stay logged in and take over this digital frontier.',
       cast: 'Satoshi Hino, Yumi Hara, Sumire Uesaka, more',
@@ -447,8 +410,7 @@ const seedData = [
       img: 'overlord',
    },
    {
-      id: getUUID(),
-      title: 'The Witcher Nightmare Of The Wolf',
+      title: 'The Witcher_ Nightmare of the Wolf',
       description:
          'Escaping from poverty to become a witcher, Vesemir slays monsters for coin and glory, but when a new menace rises, he must face the demons of his past.',
       cast: 'Theo James, Mary McDonnell, Lara Pulver, more',
@@ -458,21 +420,8 @@ const seedData = [
       age: '18',
       img: 'the-witcher-wolf',
    },
-   {
-      id: getUUID(),
-      title: 'The Seven Deadly Sins',
-      description:
-         'The Seven Deadly Sins aid the Sky People against a powerful group of demons hellbent on resurrecting a demonic beast sealed over 3,000 years ago.',
-      cast: 'Yuki Kaji, Sora Amamiya, Misaki Kuno, more',
-      genre: 'Anime Movies',
-      genres: 'Japanese, Fantasy Anime, Action Anime',
-      duration: '1h 39m',
-      age: '16',
-      img: 'the-seven',
-   },
    //    Fantacy
    {
-      id: getUUID(),
       title: 'Night Teeth',
       description:
          'A young driver picks up two mysterious women for a night of party hopping. But when his passengers reveal their true nature, he must fight to stay alive.',
@@ -484,8 +433,7 @@ const seedData = [
       img: 'night-teeth',
    },
    {
-      id: getUUID(),
-      title: 'Fistful Of Vengeance',
+      title: 'Fistful of Vengeance',
       description:
          'A revenge mission becomes a fight to save the world from an ancient threat when superpowered assassin Kai tracks a killer to Bangkok.',
       cast: 'Iko Uwais, Lewis Tan, Lawrence Kao, more',
@@ -496,7 +444,6 @@ const seedData = [
       img: 'fis-of-ven',
    },
    {
-      id: getUUID(),
       title: 'Super Me',
       description:
          'A struggling screenwriter discovers his lucrative ability to bring antiques from his dreams into the real world — but his new life soon unravels.',
@@ -508,8 +455,7 @@ const seedData = [
       img: 'super-me',
    },
    {
-      id: getUUID(),
-      title: 'Afterlife Party',
+      title: 'Afterlife of the Party',
       description:
          'Cassie lives to party... until she dies in a freak accident. Now this social butterfly needs to right her wrongs on Earth if she wants to earn her wings.',
       cast: 'Victoria Justice, Midori Francis, Robyn Scott, more',
@@ -520,8 +466,7 @@ const seedData = [
       img: 'afterlife-party',
    },
    {
-      id: getUUID(),
-      title: 'Night Book',
+      title: 'Nightbooks',
       description:
          'Scary story fan Alex must tell a spine-tingling tale every night — or stay trapped with his new friend in a wicked witch magical apartment forever.',
       cast: 'Winslow Fegley, Lidya Jewett, Krysten Ritter, more',
@@ -532,7 +477,6 @@ const seedData = [
       img: 'night-book',
    },
    {
-      id: getUUID(),
       title: 'Bleach',
       description:
          'When high schooler Ichigo is suddenly given reaper abilities, he really wants to give the powers back. But he will have to reap some souls first.',
@@ -544,7 +488,6 @@ const seedData = [
       img: 'bleach',
    },
    {
-      id: getUUID(),
       title: 'King Kong',
       description:
          'Peter Jackson is remake of the classic follows a group of adventurous explorers and filmmakers to Skull Island, where they search for a giant gorilla.',
@@ -556,8 +499,7 @@ const seedData = [
       img: 'king-kong',
    },
    {
-      id: getUUID(),
-      title: 'Assassins',
+      title: 'Assassin_s Creed',
       description:
          'In this adaptation of the critically acclaimed video game franchise, a man on death row is rescued from execution by a mysterious organization.',
       cast: 'Michael Fassbender, Marion Cotillard, Jeremy Irons, more',
@@ -568,8 +510,7 @@ const seedData = [
       img: 'assassines',
    },
    {
-      id: getUUID(),
-      title: 'Hobbit',
+      title: 'The Hobbit_ An Unexpected Journey',
       description:
          'In this prequel to the "Lord of the Rings" trilogy, Bilbo Baggins joins a hardy group of dwarves on a dangerous quest to reclaim their lost kingdom.',
       cast: 'Ian McKellen, Martin Freeman, Richard Armitage, more',
@@ -580,8 +521,7 @@ const seedData = [
       img: 'hobbit',
    },
    {
-      id: getUUID(),
-      title: 'Addams Family',
+      title: 'The Addams Family',
       description:
          'The Addams family — Gomez, Morticia, Wednesday and Pugsley — welcome long-lost relation Fester back into the creepy, kooky and close-knit fold.',
       cast: 'Anjelica Huston, Raul Julia, Christopher Lloyd, more',
